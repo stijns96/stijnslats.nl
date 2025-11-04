@@ -24,7 +24,5 @@
         class="rounded-2xl"
       />
     </UPageHero>
-
-    <SectionProjects />
   </UPage>
 </template>
