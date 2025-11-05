@@ -3,6 +3,18 @@
 
 @theme static {
   --font-heading: "Lufga", sans-serif;
+
+  --color-brand-50: oklch(97.76% 0.01 234.81);
+  --color-brand-100: oklch(95.07% 0.02 238.67);
+  --color-brand-200: oklch(90.11% 0.05 228.84);
+  --color-brand-300: oklch(82.43% 0.08 227.07);
+  --color-brand-400: oklch(74.07% 0.12 228.53);
+  --color-brand-500: oklch(66.47% 0.13 232.26);
+  --color-brand-600: oklch(57.17% 0.12 236.48);
+  --color-brand-700: oklch(52.49% 0.11 238.11);
+  --color-brand-800: oklch(43.32% 0.09 236.24);
+  --color-brand-900: oklch(38.55% 0.07 236.78);
+  --color-brand-950: oklch(29.17% 0.05 239);
 }
 
 h1,
@@ -12,4 +24,16 @@ h4,
 h5,
 h6 {
   @apply font-heading;
+}
+
+.dark {
+  --ui-primary: var(--ui-color-primary-700);
+
+  --ui-text: #e3eefc;
+
+  --ui-bg: #000319;
+  --ui-bg-muted: #06091f;
+  --ui-bg-elevated: #161a31;
+  --ui-bg-accented: #1c2240;
+  --ui-bg-inverted: #e3eefc;
 }

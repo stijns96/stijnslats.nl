@@ -11,20 +11,23 @@ export default defineAppConfig({
           md: {
             base: "px-10 py-5",
           },
+          xl: {
+            base: "px-8 py-4",
+          },
         },
       },
       compoundVariants: [
         {
-          color: "primary",
-          variant: "solid",
+          color: "neutral",
+          variant: "subtle",
           class:
-            "text-default bg-linear-to-r from-[#5e31db] to-[#2473eb] hover:from-[#b493f1] hover:to-[#29288b] duration-1000",
+            "text-default bg-transparent bg-linear-to-r from-elevated to-muted duration-500",
         },
       ],
     },
     pageHero: {
       slots: {
-        title: "font-medium md:text-8xl",
+        title: "text-default font-medium md:text-8xl",
       },
     },
     pageCard: {
